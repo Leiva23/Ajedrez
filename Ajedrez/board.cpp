@@ -13,7 +13,7 @@ void initChessBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
                 chessBoard[j][i] = BLACK_PAWN; // Peones negros en la penultima fila
             }
             else {
-                chessBoard[j][i] = EMPTY; //casillas vacías por ahora
+                chessBoard[j][i] = EMPTY; //casillas vacias por ahora
             }
         }
     }
